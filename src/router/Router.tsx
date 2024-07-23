@@ -1,12 +1,10 @@
 import {createBrowserRouter} from "react-router-dom";
-
-import Payment from "../components/Payment.tsx";
-
+import App from "@/components/App";
 
 const routes = [
   {
     path: '/payment',
-    element: <Payment/>,
+    element: <App/>,
   }
 ]
 
